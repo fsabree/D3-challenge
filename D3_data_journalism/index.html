@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>D3Times</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div class="article">
+          <h2>Correlations Discovered Between Poverty and Healthcare, Obesity</h2>
+          <p>The table above takes the 
+            <a href="https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml" rel="nofollow noreferrer noopener" target="_blank">2014 ACS 1-year estimates</a>
+            and looks at obesity and the correlation it has between the percentage of those who live in poverty and those that lack healthcare by state.</p>
+          
+          <h5>Poverty vs. Obesity</h5>
+
+          <p>First we will take a look at obesity and the percentage of those that live in poverty.  The data shows that there is a positive correlation between poverty and obesity.
+            The obesity rates are higher for those states that have a higher poverty percentage.  For example, Mississippi has the highest poverty and obesity rate. How is poverty linked to obesity? 
+            It has been suggested that individuals who live in impoverished regions have poor access to fresh food. Poverty-dense areas are oftentimes called “food deserts, meaning that they have less 
+            access to fresh foods. households with incomes below the poverty line ($21,756) are food insecure (uncertain of having, or unable to acquire, sufficient food).  Thus, in many poverty-dense 
+            regions, people are in hunger and unable to access affordable healthy food, even when funds avail. </p>
+
+          <p>Another factor is evidence of the association between sedentariness, poor health, obesity, diabetes.  Sedentary individuals move 2 h per day less than active individuals 
+            and expend less energy, and they are thereby prone to obesity, chronic metabolic disease, and cardiovascular death.  Overall, the poorest counties have the greatest
+            sedentariness and obesity.
+            Several reasons may explain why people living in poor counties are less active. One reason may be that violence tracks with poverty, thereby preventing people from being 
+            active out-of-doors. Similarly, parks and sports facilities are less available to people living in poor counties, and people who live in poverty-dense regions may be 
+            less able to afford gym membership, sports clothing, and/or exercise equipment. There are multiple individual and environmental reasons to explain why poverty-dense counties 
+            may be more sedentary and bear greater obesity burdens.</p>
+
+          <h5>Healthcare vs. Obesity</h5>
+
+          <p>The data shows that there is some correlation between healthcare and obesity.  Those states that lack healthcare have high obesity rates.
+            There are some states that have low healthcare percentages but a high obesity rate (Hawaii, Massachussets).  Further research will need to be completed to understand why that is.
+            Those that become obese and lack proper healthcare have the ability to develop obesity-related ailments requiring medical treatment—such as type 2 diabetes, heart disease,
+            and kidney failure.
+          </p>
+
+          <br/>
+          <br/>
+          <h6>Sources</h6>
+          <a href="https://diabetes.diabetesjournals.org/content/60/11/2667.full">Poverty and Obesity in the U.S.</a>
+          <br/>
+          <a href="https://www.americanprogress.org/issues/healthcare/news/2012/05/21/11514/linking-obesity-and-health-care/">Linking Obesity and Health Care</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>The Coding Boot Camp&copy;2016</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+  <script type="text/javascript" src="assets/js/app2.js"></script>
+
+</body>
+
+</html>
